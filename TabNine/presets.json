@@ -1,0 +1,18 @@
+{
+  "lua": {
+    "prompt_prefix": "-- ",
+    "style": "concise-comment",
+    "examples": [
+      "-- function that spawns player",
+      "-- create a lua table of weapons with id and name"
+    ]
+  },
+  "rust": {
+    "prompt_prefix": "// ",
+    "style": "doc-comment",
+    "examples": [
+      "// struct for item inventory",
+      "// implement Drop trait for Enemy"
+    ]
+  }
+}

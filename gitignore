@@ -1,0 +1,48 @@
+# Byte-compiled / compiled files
+*.pyc
+*.pyo
+*.pyd
+*.class
+*.o
+*.so
+*.rlib
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Rust target build dir
+/target/
+
+# Lua compiled files
+*.luac
+
+# Build output
+/build/
+
+# Sublime settings
+*.sublime-workspace
+*.sublime-settings
+
+# User/system specific
+.DS_Store
+Thumbs.db
+
+# Node modules (if any scripting)
+node_modules/
+
+# Git
+.git/
+.gitignore
+
+# Backup or autosave files
+*~
+*.swp
+
+# Editor folders
+.vscode/
+.idea/
+
+# Personal settings
+.env

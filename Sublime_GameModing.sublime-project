@@ -1,0 +1,51 @@
+{
+  "folders": [
+    {
+      "path": ".",
+      "folder_exclude_patterns": [
+        ".git",
+        "build",
+        "__pycache__"
+      ],
+      "file_exclude_patterns": [
+        "*.log",
+        "*.tmp",
+        "*.bak"
+      ]
+    }
+  ],
+  "settings": {
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+    "ensure_newline_at_eof_on_save": true,
+    "trim_trailing_white_space_on_save": true,
+    "LSP": {
+      "enabled": true
+    },
+    "rulers": [
+      80
+    ],
+    "word_wrap": "auto"
+  },
+  "build_systems": [
+    {
+      "name": "Lua Build",
+      "cmd": [
+        "lua",
+        "$file"
+      ],
+      "file_patterns": [
+        "*.lua"
+      ],
+      "selector": "source.lua"
+    },
+    {
+      "name": "Rust Build",
+      "cmd": [
+        "cargo",
+        "build"
+      ],
+      "working_dir": "${folder}"
+    }
+  ]
+}
